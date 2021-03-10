@@ -1,1 +1,1 @@
-curl -s https://api.github.com/repos/torvalds/linux/pulls | grep -F 'number":'
+curl -sS https://api.github.com/repos/longfkz/homework2/contributors | awk  '/login a/{print};/contributions b/{print}'
